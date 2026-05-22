@@ -165,6 +165,7 @@ function agregarMetodoCalculoDescuento(producto) {
   return producto;
 }
 
+
 // Do not change any of the function names
 
 function invocarCallback(cb) {
