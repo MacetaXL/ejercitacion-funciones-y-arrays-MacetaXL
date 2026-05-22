@@ -121,7 +121,7 @@ function nuevoUsuario(nombre, email, password) {
 }
 
 function tieneEmail(usuario) {
-  return usuario.email !== undefined;
+  return usuario.email !== undefined && usuario.email !== null;
 }
 
 function tienePropiedad(objeto, propiedad) {
